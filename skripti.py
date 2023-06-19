@@ -26,7 +26,7 @@ def detekto_autoret(url):
         return "Gabim gjatë lidhjes me faqen: " + str(e)
 
 # Përdorimi i skriptit
-url_faqe = 'https://www.example.com'
+url_faqe = 'https://sems.uni-pr.edu'
 administrator = detekto_administratorin(url_faqe)
 print("Administratori i faqes është:", administrator)
 
